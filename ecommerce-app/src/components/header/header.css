@@ -1,0 +1,149 @@
+header  {
+    padding: 1em 3em;
+    background-color: #111821;
+    color: white;
+}
+.head-1 {
+    border-bottom: 1px solid #ffffff94;
+}
+.sec-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .sec-1 .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .sec-1 .right .left-sec p a {
+    color: white;
+}
+.head-2 .sec-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-2 .sec-2 .col-1 h2 .dev {
+    color: white;
+}
+.head-2 .sec-2 .col-2 div {
+    position: relative;
+}
+.head-2 .sec-2 .col-2 div .form-control {
+    height: 32px;
+    width: 21rem;
+    padding: 0 2rem 0 7px;
+    border-radius: 5px;
+    border: none;
+}
+.head-2 .sec-2 .col-2 div .form-control:focus {
+    outline: none;
+}
+.head-2 .sec-2 .col-2 div label {
+    position: absolute;
+    border-radius: 5px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBB975;
+    height: 100%;
+    color: #000;
+    text-align: center;
+}
+.head-2 .sec-2 .col-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.head-2 .sec-2 .col-3 div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+.head-2 .sec-2 .col-3 div a i {
+    font-size: 30px;
+    align-self: center;
+    color: white;
+}
+.head-2 .sec-2 .col-3 div a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-2 .sec-2 .col-3 div a div span:first-child {
+    font-size: 14px;
+}
+.head-2 .sec-2 .col-3 div a div span:last-child {
+    font-size: 12px;
+}
+.head-2 .sec-2 .col-3 .cart a i {
+    color: #FBB975;
+}
+.head-2 .sec-2 .col-3 .cart a div span:first-child {
+    align-self: center;
+    background-color: #fff;
+    color: #000;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+.head-3 {
+    background-color: #20303E;
+}
+.head-3 .sec-3 {
+    display: flex;
+    gap: 10px; 
+}
+.head-3 .sec-3 .menu {
+    display: flex;
+    gap: 20px;
+    width: 22rem;
+}
+.head-3 .sec-3 .menu ul {
+    flex-grow: 2;
+}
+.head-3 .sec-3 .menu ul li {
+    position: relative;
+    cursor: pointer;
+}
+.head-3 .sec-3 .menu ul li i{
+    float: right;
+}
+.head-3 .sec-3 .menu ul li .drop-menu {
+    position: absolute;
+    width: 100%;
+    top: 33px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1111;
+    display: none;
+    border-radius: 5px;
+    background-color: #111821;
+}
+.head-3 .sec-3 .menu ul .drop ul.open {
+    display: block;
+}
+.head-3 .sec-3 .menu ul li .drop-menu li  {
+    padding: 15px 0 15px 10px;
+    /* margin: 0 0 10px; */
+    /* background-color: #000; */
+}
+.head-3 .sec-3 .menu ul li .drop-menu li:not(:last-of-type) {
+    border-bottom: 2px solid #ffffff94;
+}
+.head-3 .sec-3 .menu ul li .drop-menu li a {
+    color: white;
+}
+.head-3 .sec-3 .menu-links a {
+    color: white;
+    margin: 0 10px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,91 @@
+footer {
+    background-color: #20303D;
+    color: white;
+}
+footer section:not(:last-of-type) {
+    border-bottom: 1px solid #ffffff94;
+}
+footer .sec-1 {
+    padding: 40px 80px;
+}
+footer .sec-1 .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .sec-1 .container .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer .sec-1 .container .left i {
+    font-size: 22px;
+}
+footer .sec-1 .container .right {
+    position: relative;
+}
+footer .sec-1 .container .right input {
+    height: 38px;
+    width: 22rem;
+    padding: 0 5.5rem 0 7px;
+    border-radius: 5px;
+    border: none;
+}
+footer .sec-1 .container .right label {
+    position: absolute;
+    padding: 5px 5px;
+    right: 5px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    background: #20303D;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+footer .sec-1 .container .right input:focus {
+    outline: none;
+}
+footer .sec-2 {
+    padding: 30px;
+}
+footer .sec-2 .container-2 {
+    display: flex;
+    justify-content: space-around;
+}
+footer .sec-3 p {
+    text-align: center;
+}
+footer .sec-2 .container-2 .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+footer .sec-2 .container-2 .cont .links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .sec-2 .container-2 .cont .links a {
+    color: white;
+}
+footer .sec-2 .container-2 .content-1 a:nth-child(2) i {
+    margin-right: 2px;
+    font-size: 15px;
+}
+footer .sec-2 .container-2 .content-1 .social-icons {
+    display: flex;
+    gap: 10px;
+}
+footer .sec-2 .container-2 .content-1 .social-icons a {
+    border-radius: 50%;
+    background-color: #4d5252;
+}
+footer .sec-2 .container-2 .content-1 .social-icons a i {
+    padding: 10px;
+    font-size: 17px;
+}
+footer .sec-3 {
+    padding: 20px 0;
+}
